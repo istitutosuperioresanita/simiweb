@@ -1,0 +1,114 @@
+# This repository adheres to the publiccode.yml standard by including this 
+# metadata file that makes public software easily discoverable.
+# More info at https://github.com/italia/publiccode.yml
+
+publiccodeYmlVersion: '0.2'
+applicationSuite: simiweb
+categories:
+  - collaboration
+description:
+  it:
+    features:
+      - tempestività
+      - qualità dei dati
+      - feedback in tempo reale
+    genericName: simiweb
+    localisedName: simiweb
+    longDescription: |2
+        
+
+      Il SIMIWEB  è un software creato per la raccolta di segnalazioni e
+      notifiche di malattie infettive concepita per la gestione dei dati singoli
+      per le malattie trasmissibili, dei dati aggregati sulle malattie
+      trasmissibili (focolai) e l’ integrazione con i sistemi istituzionali
+      esistenti).
+
+
+      Il SIMIWEB  è un web-based sofware (basato su tecnologia ASP.NET e SQL
+      SERVER 2012 e successivi)r che può essere utilizzato con la maggior parte
+      dei browser in circolazione attraverso un collegamento ad internet. La
+      metodologia scelta per la raccolta, l’archiviazione, l’elaborazione e la
+      presentazione finale dei dati è basata su prodotti software integrati, che
+      permettono la gestione in tempo reale di dati complessi e la gestione
+      degli stessi secondo competenze territoriali. 
+
+
+      Attualmente i benefici del sistema sono in termini di:
+
+
+      · tempestività;
+
+
+      · qualità dei dati (meno errori, duplicati, dati non coerenti);
+
+
+      · possibilità di rapide azioni di controllo su possibili focolai;
+
+
+      · feedback in tempo reale;
+
+
+      · disponibilità di dati confrontabili a tutti i livelli secondo modalità
+      di accesso differenti per competenze territoriali;
+
+
+      · flessibilità;
+
+
+      · maggiori garanzie di privacy sulle informazioni nominative;
+
+
+      · eliminazione del flusso cartaceo;
+
+
+      · procedure di analisi integrate
+
+
+      Il sistema realizzato, è caratterizzato da un architettura applicativa
+      flessibile e perfettamente integrabile nel contesto del sistema
+      informativo sanitario regionale ed è predisposto per adempiere nel limite
+      delle informazioni registrate ai debiti informativi regionali e
+      ministeriali 
+    shortDescription: software per la gestione delle malattie infettive
+developmentStatus: stable
+intendedAudience:
+  scope:
+    - healthcare
+it:
+  conforme:
+    gdpr: false
+    lineeGuidaDesign: false
+    misureMinimeSicurezza: false
+    modelloInteroperabilita: false
+  countryExtensionVersion: '0.2'
+  piattaforme:
+    anpr: false
+    cie: false
+    pagopa: false
+    spid: false
+  riuso:
+    codiceIPA: iss_rm
+legal:
+  license: GPL-3.0-or-later
+  mainCopyrightOwner: MAGGIO CAVALLARO GIANLUCA
+  repoOwner: PAOLO D'ANCONA
+localisation:
+  availableLanguages:
+    - it
+  localisationReady: false
+maintenance:
+  contacts:
+    - affiliation: IStituto Superiore Sanita
+      email: dancona@iss.it
+      name: Paolo D'Ancona
+  type: internal
+name: simiweb
+platforms:
+  - windows
+  - web
+releaseDate: '2019-01-08'
+softwareType: configurationFiles
+softwareVersion: '1.0'
+url: 'https://github.com/istitutosuperioresanita/simiweb_2'
+usedBy:
+  - ISTITUTO SUPERIORE SANITA
