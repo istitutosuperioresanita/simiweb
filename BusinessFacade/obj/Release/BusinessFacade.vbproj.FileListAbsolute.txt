@@ -1,0 +1,16 @@
+C:\ProgettiVisualStudio\Simiweb_2_0\slnSimiWeb\BusinessFacade\bin\Release\BusinessFacade.dll.config
+C:\ProgettiVisualStudio\Simiweb_2_0\slnSimiWeb\BusinessFacade\bin\Release\BusinessFacade.dll
+C:\ProgettiVisualStudio\Simiweb_2_0\slnSimiWeb\BusinessFacade\bin\Release\BusinessFacade.pdb
+C:\ProgettiVisualStudio\Simiweb_2_0\slnSimiWeb\BusinessFacade\bin\Release\BusinessFacade.xml
+C:\ProgettiVisualStudio\Simiweb_2_0\slnSimiWeb\BusinessFacade\bin\Release\DataAccess.dll
+C:\ProgettiVisualStudio\Simiweb_2_0\slnSimiWeb\BusinessFacade\bin\Release\DataLinq.dll
+C:\ProgettiVisualStudio\Simiweb_2_0\slnSimiWeb\BusinessFacade\bin\Release\DataAccess.pdb
+C:\ProgettiVisualStudio\Simiweb_2_0\slnSimiWeb\BusinessFacade\bin\Release\DataAccess.xml
+C:\ProgettiVisualStudio\Simiweb_2_0\slnSimiWeb\BusinessFacade\bin\Release\DataLinq.pdb
+C:\ProgettiVisualStudio\Simiweb_2_0\slnSimiWeb\BusinessFacade\bin\Release\DataLinq.xml
+C:\ProgettiVisualStudio\Simiweb_2_0\slnSimiWeb\BusinessFacade\obj\Release\BusinessFacade.vbprojResolveAssemblyReference.cache
+C:\ProgettiVisualStudio\Simiweb_2_0\slnSimiWeb\BusinessFacade\obj\Release\Simiweb.BusinessFacade.Resources.resources
+C:\ProgettiVisualStudio\Simiweb_2_0\slnSimiWeb\BusinessFacade\obj\Release\BusinessFacade.vbproj.GenerateResource.Cache
+C:\ProgettiVisualStudio\Simiweb_2_0\slnSimiWeb\BusinessFacade\obj\Release\BusinessFacade.dll
+C:\ProgettiVisualStudio\Simiweb_2_0\slnSimiWeb\BusinessFacade\obj\Release\BusinessFacade.xml
+C:\ProgettiVisualStudio\Simiweb_2_0\slnSimiWeb\BusinessFacade\obj\Release\BusinessFacade.pdb

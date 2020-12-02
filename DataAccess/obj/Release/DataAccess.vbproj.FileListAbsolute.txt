@@ -1,0 +1,12 @@
+C:\ProgettiVisualStudio\Simiweb_2_0\slnSimiWeb\DataAccess\bin\Release\DataAccess.dll
+C:\ProgettiVisualStudio\Simiweb_2_0\slnSimiWeb\DataAccess\bin\Release\DataAccess.pdb
+C:\ProgettiVisualStudio\Simiweb_2_0\slnSimiWeb\DataAccess\bin\Release\DataAccess.xml
+C:\ProgettiVisualStudio\Simiweb_2_0\slnSimiWeb\DataAccess\bin\Release\DataLinq.dll
+C:\ProgettiVisualStudio\Simiweb_2_0\slnSimiWeb\DataAccess\bin\Release\DataLinq.pdb
+C:\ProgettiVisualStudio\Simiweb_2_0\slnSimiWeb\DataAccess\bin\Release\DataLinq.xml
+C:\ProgettiVisualStudio\Simiweb_2_0\slnSimiWeb\DataAccess\obj\Release\DataAccess.vbprojResolveAssemblyReference.cache
+C:\ProgettiVisualStudio\Simiweb_2_0\slnSimiWeb\DataAccess\obj\Release\Simiweb.DataAccess.Resources.resources
+C:\ProgettiVisualStudio\Simiweb_2_0\slnSimiWeb\DataAccess\obj\Release\DataAccess.vbproj.GenerateResource.Cache
+C:\ProgettiVisualStudio\Simiweb_2_0\slnSimiWeb\DataAccess\obj\Release\DataAccess.dll
+C:\ProgettiVisualStudio\Simiweb_2_0\slnSimiWeb\DataAccess\obj\Release\DataAccess.xml
+C:\ProgettiVisualStudio\Simiweb_2_0\slnSimiWeb\DataAccess\obj\Release\DataAccess.pdb

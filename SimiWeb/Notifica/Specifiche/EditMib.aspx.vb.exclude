@@ -1,0 +1,85 @@
+﻿Imports Simiweb.BusinessFacade
+Imports Simiweb.DataLinq
+Imports Simiweb.DataAccess
+Partial Class Notifica_Specifiche_EditMib
+    Inherits System.Web.UI.Page
+    Private _mobjNotifica As New BllNotifica
+    Private _mobjTbc As New BllTbc
+    Private _idNotifica As Integer = 0
+    Private _id As Integer = 0
+    Protected Overloads Overrides Function SaveViewState() As Object
+        Me.ViewState.Add("_id", _id)
+        Me.ViewState.Add("_idNotifica", _idNotifica)
+        Return MyBase.SaveViewState
+    End Function
+    Protected Overloads Overrides Sub LoadViewState(ByVal savedState As Object)
+        MyBase.LoadViewState(savedState)
+        _id = CInt(ViewState("_id"))
+        _idNotifica = CInt(ViewState("_idNotifica"))
+    End Sub
+    Private Sub ImpostaJavascript()
+        'Me.SedeExtraPolmonare.Attributes("onclick") = "abilitaExtraPolmonare();"
+        'Me.Localizzazione1.Attributes("onchange") = "ControllaLocalizzazioni();"
+        'Me.Localizzazione2.Attributes("onchange") = "ControllaLocalizzazioni();"
+        'Me.Miliare.Attributes("onclick") = "ControllaMiliare();"
+        'Me.Disseminata.Attributes("onchange") = "ControllaDisseminata();"
+    End Sub
+
+    Protected Sub Page_Load(ByVal sender As Object, ByVal e As System.EventArgs) Handles Me.Load
+        If Not Page.IsPostBack Then
+            _idNotifica = Session("idNotifica")
+            CaricaValoriStartUp()
+            CaricaEntity()
+            ImpostaJavascript()
+        End If
+    End Sub
+    Private Sub BindLocalizzazioni(ByRef cmb As DropDownList, ByVal ds As List(Of JsonDto))
+        cmb.DataSource = ds
+        cmb.DataTextField = "descrizione"
+        cmb.DataValueField = "codice"
+        cmb.DataBind()
+        cmb.Items.Insert(0, New ListItem("Selezionare...", ""))
+    End Sub
+    Private Sub CaricaValoriStartUp()
+
+
+    End Sub
+
+    Private Sub CaricaEntity()
+        Dim localEntity As Notifica_Tbc = _mobjTbc.GetTbc(_idNotifica)
+
+        If Not IsNothing(localEntity) Then
+            With localEntity
+                _idNotifica = .idNotifica
+                _id = .idNotifica
+
+
+            End With
+        End If
+    End Sub
+    Private Function impostaEntity() As Notifica_Tbc
+        Dim localtable As Notifica_Tbc = New Notifica_Tbc
+        With localtable
+
+            .idNotifica = _idNotifica
+
+        End With
+        Return localtable
+    End Function
+    Private Sub Salva()
+        Try
+            If _id = 0 Then
+                _mobjTbc.AddTbc(impostaEntity)
+                Response.Redirect("Riepilogo.aspx?tab=extra", True)
+            Else
+                _mobjTbc.UpdateTbc(impostaEntity)
+                Response.Redirect("Riepilogo.aspx?tab=extra", True)
+            End If
+        Catch ex As Exception
+
+        End Try
+    End Sub
+    Protected Sub btn_Click(ByVal sender As Object, ByVal e As System.EventArgs) Handles btn.Click
+        Salva()
+    End Sub
+End Class

@@ -1,0 +1,10 @@
+C:\ProgettiVisualStudio\Simiweb_2_0\slnSimiWeb\DataLinq\bin\Release\DataLinq.dll.config
+C:\ProgettiVisualStudio\Simiweb_2_0\slnSimiWeb\DataLinq\bin\Release\DataLinq.dll
+C:\ProgettiVisualStudio\Simiweb_2_0\slnSimiWeb\DataLinq\bin\Release\DataLinq.pdb
+C:\ProgettiVisualStudio\Simiweb_2_0\slnSimiWeb\DataLinq\bin\Release\DataLinq.xml
+C:\ProgettiVisualStudio\Simiweb_2_0\slnSimiWeb\DataLinq\obj\Release\Simiweb.DataLinq.Resources.resources
+C:\ProgettiVisualStudio\Simiweb_2_0\slnSimiWeb\DataLinq\obj\Release\DataLinq.vbproj.GenerateResource.Cache
+C:\ProgettiVisualStudio\Simiweb_2_0\slnSimiWeb\DataLinq\obj\Release\DataLinq.dll
+C:\ProgettiVisualStudio\Simiweb_2_0\slnSimiWeb\DataLinq\obj\Release\DataLinq.xml
+C:\ProgettiVisualStudio\Simiweb_2_0\slnSimiWeb\DataLinq\obj\Release\DataLinq.pdb
+C:\ProgettiVisualStudio\Simiweb_2_0\slnSimiWeb\DataLinq\obj\Release\DataLinq.vbprojResolveAssemblyReference.cache

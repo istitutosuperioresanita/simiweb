@@ -1,0 +1,36 @@
+﻿<%@ Page Title="" Language="VB" MasterPageFile="~/_MasterPage/Template.master" 
+AutoEventWireup="false" 
+ ClientIDMode="Static"
+CodeFile="EditMib.aspx.vb" Inherits="Notifica_Specifiche_EditMib" %>
+
+<%@ Register src="~/_UserControl/Applicazione/UcStatoSegnalazione.ascx" tagname="UcStatoSegnalazione" tagprefix="uc1" %>
+
+<asp:Content ID="Content1" ContentPlaceHolderID="head" Runat="Server">
+    <link rel="Stylesheet"  type="text/css"  href="~/_Styles/Veneto/Template.css" />    
+    <link rel="Stylesheet"  type="text/css"  href="~/_Styles/Field.css" />
+    <script src="~/Scripts/jquery-1.7.1.min.js" type="text/javascript"></script>
+    <script src="~/_Scripts/All/ContolloData.js" type="text/javascript"></script>
+</asp:Content>
+<asp:Content ID="Content2" ContentPlaceHolderID="Contenuto" Runat="Server">
+    <div class="splitd"  >
+         <div class="pag_link" ><!--a href="">
+           home</a-->
+           Simiweb -> Notifica -> Malattie batterico invasive informazioni aggiuntive
+        </div >  
+         <uc1:UcStatoSegnalazione ID="UcStatoSegnalazione1" runat="server" />
+        <br />
+
+            <p  style="padding-left:600px">
+                <input type="button" value="Annulla"  name="annulla" onclick="history.go(-1)"/>&nbsp; 
+                <asp:Button ID="btn" runat="server" Text="Salva"  Visible="true"/>                
+            </p>
+
+</div>         
+</asp:Content>
+<asp:Content ID="Content3" ContentPlaceHolderID="LeftMenu" Runat="Server">
+</asp:Content>
+<asp:Content ID="Content4" ContentPlaceHolderID="Footer" Runat="Server">
+    <div class="dow-center">
+</div>
+</asp:Content>
+

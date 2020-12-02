@@ -1,0 +1,59 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.40629.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "SimiWeb", "http://localhost:55326", "{4BFDCE7C-022D-42EE-9D67-242261D34CA1}"
+	ProjectSection(WebsiteProperties) = preProject
+		UseIISExpress = "true"
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_55326"
+		Debug.AspNetCompiler.PhysicalPath = "SimiWeb\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_55326\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_55326"
+		Release.AspNetCompiler.PhysicalPath = "SimiWeb\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_55326\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		SlnRelativePath = "SimiWeb\"
+	EndProjectSection
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "DataAccess", "DataAccess\DataAccess.vbproj", "{8CBB978F-25D6-4E52-BCD7-CEF715EB70B9}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "BusinessFacade", "BusinessFacade\BusinessFacade.vbproj", "{F63CAB9C-CC20-4D30-853B-368A50C8F9BB}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "DataLinq", "DataLinq\DataLinq.vbproj", "{EA0321D1-7F33-476C-B5D3-050D7A67F0DE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4BFDCE7C-022D-42EE-9D67-242261D34CA1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4BFDCE7C-022D-42EE-9D67-242261D34CA1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4BFDCE7C-022D-42EE-9D67-242261D34CA1}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{4BFDCE7C-022D-42EE-9D67-242261D34CA1}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{8CBB978F-25D6-4E52-BCD7-CEF715EB70B9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8CBB978F-25D6-4E52-BCD7-CEF715EB70B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8CBB978F-25D6-4E52-BCD7-CEF715EB70B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8CBB978F-25D6-4E52-BCD7-CEF715EB70B9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F63CAB9C-CC20-4D30-853B-368A50C8F9BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F63CAB9C-CC20-4D30-853B-368A50C8F9BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F63CAB9C-CC20-4D30-853B-368A50C8F9BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F63CAB9C-CC20-4D30-853B-368A50C8F9BB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EA0321D1-7F33-476C-B5D3-050D7A67F0DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EA0321D1-7F33-476C-B5D3-050D7A67F0DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EA0321D1-7F33-476C-B5D3-050D7A67F0DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EA0321D1-7F33-476C-B5D3-050D7A67F0DE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

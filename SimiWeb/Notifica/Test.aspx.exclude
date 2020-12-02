@@ -1,0 +1,97 @@
+﻿<%@ Page Language="VB" AutoEventWireup="false" CodeFile="Test.aspx.vb" Inherits="Notifica_Test" EnableEventValidation="false" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <script src="Js/Notifica.js" type="text/javascript"></script>
+    <script src="../_Scripts/All/ContolloData.js" type="text/javascript"></script>
+    <script src="../Scripts/jquery-1.7.1.min.js" type="text/javascript"></script>
+    <script src="../_Scripts/All/Geografiche.js"  type="text/javascript"></script>
+        <script src="Js/anagrafica.js"  type="text/javascript"></script>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+
+    <p>
+        <label class="label">Numero Casi</label>
+        <asp:TextBox ID="numeroCasi" runat="server"></asp:TextBox>
+    </p>
+            <p>
+            <asp:Label ID="malattiaLabel" runat="server" AssociatedControlID="malattia" CssClass="label" Width="150px">Malattia</asp:Label>
+            <asp:DropDownList ID="malattia" runat="server" CssClass="dropdown"></asp:DropDownList>
+            </p>
+    <p>
+        <label class="label">Asl di notifica</label>
+        <asp:DropDownList ID="aslNotifica" runat="server">
+        </asp:DropDownList>
+    </p>
+        <p>
+            <asp:Label  id="ProvinciaResidenzaLabel" runat="server"  AssociatedControlID="ProvinciaResidenza" CssClass="label"  Width="200px" >Provincia residenza</asp:Label> 
+            <asp:DropDownList ID="ProvinciaResidenza" runat="server" CssClass="dropdown" > 
+                <asp:ListItem Text="Roma" Value="Roma"></asp:ListItem>                   
+                <asp:ListItem Text="Napoli" Value="Napoli"></asp:ListItem>                   
+            </asp:DropDownList>
+        </p>
+        <p>
+            <asp:Label ID="ComuneResidenzaLabel" runat="server" AssociatedControlID="ComuneResidenza" CssClass="label" Width="200px" >Comune residenza:</asp:Label>
+            <asp:DropDownList ID="ComuneResidenza" runat="server"  CssClass="dropdown">
+            </asp:DropDownList>    
+            <img id="CopiaResidenza" alt="Copia" title="Clicca Qui per copiare la provincia e il comune di residenza in quelli di domicilio"  onclick="CopiaGeografiche('ProvinciaResidenza','ComuneResidenza','ProvinciaDomicilio','ComuneDomicilio','','');" src="../_Styles/All/images/page_copy.png"  />
+        </p>
+    <p>
+                <asp:DropDownList ID="sesso" runat="server">
+                <asp:ListItem Text="m" Value="m"></asp:ListItem>
+                <asp:ListItem Text="f" Value="f"></asp:ListItem>
+        </asp:DropDownList>
+    </p>
+    <p>
+        <label class="label">Stato</label>
+        <asp:DropDownList ID="stato" runat="server">
+            <asp:ListItem Text="Segnalazione" Value="Segnalazione"></asp:ListItem>
+            <asp:ListItem Text="Notifica" Value="Notifica"></asp:ListItem>
+        </asp:DropDownList>
+    </p>
+    <p>
+        <label class="label">Data Nascita</label>
+        <asp:TextBox ID="dataDaNAscita" runat="server"></asp:TextBox>
+        <asp:TextBox ID="dataANascita" runat="server"></asp:TextBox>
+    </p>
+    <p>
+        <label class="label">Data Sintomi</label>
+        <asp:TextBox ID="dataDaSintomi" runat="server"></asp:TextBox>
+        <asp:TextBox ID="dataASintomi" runat="server"></asp:TextBox>
+    </p>
+    <p>
+        <label class="label">MAlattia</label>
+        <asp:DropDownList ID="DropDownList1" runat="server">
+        </asp:DropDownList>
+    </p>
+    <p>
+        <asp:Button ID="btnInvio" runat="server" />
+    </p>
+    </div>
+    <div>
+    <p>
+        Utenti Bulk
+    </p>
+    <p>
+    <asp:GridView ID="usr" runat="server"></asp:GridView>
+    </p>
+    <p>
+    <asp:Button ID="caricaUTenti" runat="server"  Text="CAricaUTenti" />
+    <asp:Button ID="salvaUtenti" runat="server" Text="InivaPAssword" />
+    </p>
+    <p>
+    
+    <asp:Label ID="errormessage" runat="server"></asp:Label>
+    </p>
+    <p>
+    <asp:Label ID="okresult" runat="server"></asp:Label>
+    </p>
+    </div>
+    </form>
+</body>
+</html>

@@ -1,0 +1,358 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 27.125, 56.25" name="SimiWebLinq">
+  <DataContextMoniker Name="/SimiWebLinqDataContext" />
+  <nestedChildShapes>
+    <classShape Id="effa77a4-d91a-4b2d-92d1-98564e7aadb0" absoluteBounds="0.75, 0.75, 2, 1.3862939453124987">
+      <DataClassMoniker Name="/SimiWebLinqDataContext/Agente_Malattia" />
+      <nestedChildShapes>
+        <elementListCompartment Id="c0b9d1d1-1380-460d-ad77-073d9c393507" absoluteBounds="0.76500000000000057, 1.2100000000000009, 1.9700000000000002, 0.8262939453125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="0dcb0c11-4cfd-4bb1-8786-389628fb1b6d" absoluteBounds="9.5, 7, 2, 1.7708968098958344">
+      <DataClassMoniker Name="/SimiWebLinqDataContext/Agente_Metodo_Materiale" />
+      <nestedChildShapes>
+        <elementListCompartment Id="3cc35272-3640-434f-a015-9ca6dc36acc4" absoluteBounds="9.5150000005960464, 7.46000000089407, 1.9700000000000002, 1.2108968098958333" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="045ee2f8-16a9-42b8-adaf-79c63ed46f38" absoluteBounds="9.75, 9.75, 2, 1.3862939453125023">
+      <DataClassMoniker Name="/SimiWebLinqDataContext/Agente_Veicolo" />
+      <nestedChildShapes>
+        <elementListCompartment Id="9b439bf3-1d30-48fd-b9f2-891c9fe3ec44" absoluteBounds="9.765, 10.21, 1.9700000000000002, 0.8262939453125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="856624b6-def9-4a18-bb54-ed6114726d22" absoluteBounds="12.75, 6.75, 2, 1.3862939453124987">
+      <DataClassMoniker Name="/SimiWebLinqDataContext/Nazione" />
+      <nestedChildShapes>
+        <elementListCompartment Id="d5e3f26a-bc41-454e-a428-ea7adad45a13" absoluteBounds="12.765, 7.2100000000000009, 1.9700000000000002, 0.8262939453125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="23ad19c9-e024-465d-b5f6-bca0f3c27a7a" absoluteBounds="9.5, 2, 2, 2.7324039713541666">
+      <DataClassMoniker Name="/SimiWebLinqDataContext/Provincia" />
+      <nestedChildShapes>
+        <elementListCompartment Id="66e54b37-b04d-403e-b272-eda94a48f893" absoluteBounds="9.5150000005960464, 2.4600000008940697, 1.9700000000000002, 2.1724039713541665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="abd85969-176a-4c6a-a26a-9a7e7e381259" absoluteBounds="6.75, 2.75, 2, 1.3862939453124987">
+      <DataClassMoniker Name="/SimiWebLinqDataContext/Regione" />
+      <nestedChildShapes>
+        <elementListCompartment Id="da83b24e-4440-4d29-9531-7baa5cdec2be" absoluteBounds="6.7650000005960464, 3.2100000008940697, 1.9700000000000002, 0.8262939453125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="3d103463-1099-4458-a9d5-9ca60151dd05" absoluteBounds="6.75, 12.75, 2, 1.5785953776041666">
+      <DataClassMoniker Name="/SimiWebLinqDataContext/Mal_Gruppi" />
+      <nestedChildShapes>
+        <elementListCompartment Id="8e4cec09-2d92-4425-8b8c-e0d3b65fb716" absoluteBounds="6.7650000000000006, 13.21, 1.9700000000000002, 1.0185953776041665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="33f02d4e-1e0a-497b-8efd-e408c64ed475" absoluteBounds="6.75, 9.875, 2, 1.9631982421874987">
+      <DataClassMoniker Name="/SimiWebLinqDataContext/Materiale" />
+      <nestedChildShapes>
+        <elementListCompartment Id="834ede63-a75f-472c-af95-475ecf83c505" absoluteBounds="6.7650000005960464, 10.33500000089407, 1.9700000000000002, 1.4031982421875" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="a636181c-06e6-41d9-b45b-37d9089a6516" absoluteBounds="6.75, 6.875, 2, 1.9631982421875023">
+      <DataClassMoniker Name="/SimiWebLinqDataContext/Metodo" />
+      <nestedChildShapes>
+        <elementListCompartment Id="5e897e1b-4493-459b-913a-5f75ee315f98" absoluteBounds="6.7650000005960464, 7.33500000089407, 1.9700000000000002, 1.4031982421875" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="177d4b7b-e4b5-4678-a1a7-baa33de0a291" absoluteBounds="9.75, 12.75, 2, 1.9631982421875023">
+      <DataClassMoniker Name="/SimiWebLinqDataContext/Professione" />
+      <nestedChildShapes>
+        <elementListCompartment Id="35c83770-435e-4842-8c10-547fd67bdf54" absoluteBounds="9.765, 13.21, 1.9700000000000002, 1.4031982421875" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="f0eb1a0c-ba64-4759-9223-bd74885bb279" absoluteBounds="12.75, 12.75, 2, 7.3476383463541666">
+      <DataClassMoniker Name="/SimiWebLinqDataContext/Tbc_Controlli" />
+      <nestedChildShapes>
+        <elementListCompartment Id="20c7269c-5a6f-4613-9a39-dab832f2fb10" absoluteBounds="12.765, 13.21, 1.9700000000000002, 6.7876383463541661" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="26cf8d5d-6f66-4fc7-ae2f-b355743f3b44" absoluteBounds="14.75, 0.75, 2, 1.3862939453125023">
+      <DataClassMoniker Name="/SimiWebLinqDataContext/Tbc_Notifica_fattore" />
+      <nestedChildShapes>
+        <elementListCompartment Id="b4731453-8771-4dcb-8b81-53ee26cef350" absoluteBounds="14.765, 1.2100000000000009, 1.9700000000000002, 0.8262939453125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="c0a1f0f8-7fc8-4b32-b6f9-cd849933db7a" absoluteBounds="15.75, 3.75, 2, 2.3478011067708309">
+      <DataClassMoniker Name="/SimiWebLinqDataContext/Tbc_Posologia" />
+      <nestedChildShapes>
+        <elementListCompartment Id="95576285-04a3-4376-a1a2-6bde5d0c6e81" absoluteBounds="15.765, 4.2100000000000009, 1.9700000000000002, 1.7878011067708335" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="2e5174b3-b00b-4e85-9e52-fa5275df72c3" absoluteBounds="6.75, 15.75, 2, 1.9631982421875023">
+      <DataClassMoniker Name="/SimiWebLinqDataContext/Veicolo" />
+      <nestedChildShapes>
+        <elementListCompartment Id="34ee763b-e084-4d11-9a40-5b3f717ff070" absoluteBounds="6.7650000000000006, 16.21, 1.9700000000000002, 1.4031982421875" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(8.75 : 11.51849609375); (9.59375 : 11.51849609375); (9.59375 : 8.77089680989583)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/SimiWebLinqDataContext/Materiale/Materiale_Agente_Metodo_Materiale" />
+      <nodes>
+        <classShapeMoniker Id="33f02d4e-1e0a-497b-8efd-e408c64ed475" />
+        <classShapeMoniker Id="0dcb0c11-4cfd-4bb1-8786-389628fb1b6d" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(8.75 : 7.88544840494792); (9.5 : 7.88544840494792)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/SimiWebLinqDataContext/Metodo/Metodo_Agente_Metodo_Materiale" />
+      <nodes>
+        <classShapeMoniker Id="a636181c-06e6-41d9-b45b-37d9089a6516" />
+        <classShapeMoniker Id="0dcb0c11-4cfd-4bb1-8786-389628fb1b6d" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(8.75 : 3.44314697265625); (9.5 : 3.44314697265625)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/SimiWebLinqDataContext/Regione/Regione_Provincia" />
+      <nodes>
+        <classShapeMoniker Id="abd85969-176a-4c6a-a26a-9a7e7e381259" />
+        <classShapeMoniker Id="23ad19c9-e024-465d-b5f6-bca0f3c27a7a" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="5157556a-2d3a-486d-af28-90998440fef6" absoluteBounds="15.75, 7.75, 2, 1.7708968098958309">
+      <DataClassMoniker Name="/SimiWebLinqDataContext/Comunita" />
+      <nestedChildShapes>
+        <elementListCompartment Id="697f6c85-cd5e-44af-80e2-280147f1944c" absoluteBounds="15.765, 8.21, 1.9700000000000002, 1.2108968098958333" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="5717b7b2-4e8d-4c0e-89d9-e32828c361a9" absoluteBounds="15.75, 10.75, 2, 2.3478011067708309">
+      <DataClassMoniker Name="/SimiWebLinqDataContext/Esami" />
+      <nestedChildShapes>
+        <elementListCompartment Id="cf0f60ed-7c53-4128-af67-8babf084b299" absoluteBounds="15.765, 11.21, 1.9700000000000002, 1.7878011067708335" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="404216ca-0982-4a4d-8fc8-a86e5ab1d0b5" absoluteBounds="15.75, 14.75, 2, 1.5785953776041666">
+      <DataClassMoniker Name="/SimiWebLinqDataContext/Tbc_Zone" />
+      <nestedChildShapes>
+        <elementListCompartment Id="5626e715-8948-411a-bd4b-2e68a0da9092" absoluteBounds="15.765, 15.21, 1.9700000000000002, 1.0185953776041665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="759c5708-ee90-4e13-ad50-d0c07c0bbd15" absoluteBounds="15.75, 17.75, 2, 3.1170068359375023">
+      <DataClassMoniker Name="/SimiWebLinqDataContext/Asl" />
+      <nestedChildShapes>
+        <elementListCompartment Id="9faf7fef-62b2-41dc-9274-7f25883c3883" absoluteBounds="15.765, 18.21, 1.9700000000000002, 2.5570068359375" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="6c712d77-786c-48b9-a3c3-f1d0631002e8" absoluteBounds="18.75, 4.75, 2, 2.1554996744791666">
+      <DataClassMoniker Name="/SimiWebLinqDataContext/Messaggio_New" />
+      <nestedChildShapes>
+        <elementListCompartment Id="dbd3914f-765d-4231-af12-af93fe0694e1" absoluteBounds="18.765, 5.2100000000000009, 1.9700000000000002, 1.5954996744791665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="f1434f5d-8350-40ea-abea-6cf6a0d281cc" absoluteBounds="6.75, 18.75, 2, 3.1170068359375023">
+      <DataClassMoniker Name="/SimiWebLinqDataContext/History_Notifica" />
+      <nestedChildShapes>
+        <elementListCompartment Id="ba726ee3-c28a-471b-980b-894d4deb39bb" absoluteBounds="6.7650000000000006, 19.21, 1.9700000000000002, 2.5570068359375" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="bf3e32c4-bcdd-4376-b27d-b32a576a3585" absoluteBounds="18.75, 7.75, 2, 6.5784326171875023">
+      <DataClassMoniker Name="/SimiWebLinqDataContext/History_Notifica_Anagrafica" />
+      <nestedChildShapes>
+        <elementListCompartment Id="5df289ce-b4b2-4230-99b2-5ca85df1a218" absoluteBounds="18.765, 8.21, 1.9700000000000002, 6.0184326171875" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="eb29b3b1-0ac3-4b81-a040-99dbbd964423" absoluteBounds="18.75, 15.75, 2, 10.039858398437502">
+      <DataClassMoniker Name="/SimiWebLinqDataContext/History_Notifica_Clinica" />
+      <nestedChildShapes>
+        <elementListCompartment Id="1cd14de6-5a5a-4b06-a32d-8dec88cb05e1" absoluteBounds="18.765, 16.21, 1.9700000000000002, 9.4798583984375" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="c1b8a79f-2528-4a78-a28e-dd3d0c06eea5" absoluteBounds="21.75, 0.75, 2, 7.3476383463541595">
+      <DataClassMoniker Name="/SimiWebLinqDataContext/History_Notifica_MIB" />
+      <nestedChildShapes>
+        <elementListCompartment Id="6712d5da-ea5e-4fc2-9c8f-e7cabefaff5e" absoluteBounds="21.765, 1.2100000000000009, 1.9700000000000002, 6.7876383463541661" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="8d2692df-94fa-4969-9918-3386d78d1f2f" absoluteBounds="21.75, 9.75, 2, 11.001365559895831">
+      <DataClassMoniker Name="/SimiWebLinqDataContext/History_Notifica_Tbc" />
+      <nestedChildShapes>
+        <elementListCompartment Id="6f4272a7-a7d1-4f23-adaa-55a9c0347492" absoluteBounds="21.765, 10.21, 1.9700000000000002, 10.441365559895832" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="aaf5db18-e80a-4d6e-acd4-7d07d6340932" absoluteBounds="9.75, 21.75, 2, 4.8477197265625023">
+      <DataClassMoniker Name="/SimiWebLinqDataContext/History_Notifica_Tbc_Fattore" />
+      <nestedChildShapes>
+        <elementListCompartment Id="698c84c5-c38a-4373-ae70-c69036cf70af" absoluteBounds="9.765, 22.21, 1.9700000000000002, 4.2877197265625" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="5f6e5261-c2d4-4a95-9092-e06b9438f7d3" absoluteBounds="12.75, 21.75, 2, 3.1170068359375023">
+      <DataClassMoniker Name="/SimiWebLinqDataContext/Utenti_Profilo" />
+      <nestedChildShapes>
+        <elementListCompartment Id="98eb2c43-b349-4ed4-9ba0-63b3ea094f81" absoluteBounds="12.765, 22.21, 1.9700000000000002, 2.5570068359375" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="fbc42b1c-0c68-44f4-ae5d-639298f765d8" absoluteBounds="21.75, 21.75, 2, 1.9631982421875023">
+      <DataClassMoniker Name="/SimiWebLinqDataContext/Agente_Eziologico" />
+      <nestedChildShapes>
+        <elementListCompartment Id="7b9e62b1-9b44-4196-9005-b8d9965f40a2" absoluteBounds="21.765, 22.21, 1.9700000000000002, 1.4031982421875" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="3e3a6f68-64ad-47bc-ad23-6b6ad323e986" absoluteBounds="24.75, 0.75, 2, 2.3478011067708309">
+      <DataClassMoniker Name="/SimiWebLinqDataContext/Malattie_Criteri" />
+      <nestedChildShapes>
+        <elementListCompartment Id="ac7c7b1e-2f7a-4e2a-9048-ad84cf7fec6d" absoluteBounds="24.765, 1.2100000000000009, 1.9700000000000002, 1.7878011067708335" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="bea989fe-492f-4f9a-8f5d-632468541666" absoluteBounds="24.75, 4.75, 2, 2.3478011067708309">
+      <DataClassMoniker Name="/SimiWebLinqDataContext/Malattie_Classificazione_Caso" />
+      <nestedChildShapes>
+        <elementListCompartment Id="a5c5cffb-bcbb-4326-be8c-2297e5aab65d" absoluteBounds="24.765, 5.2100000000000009, 1.9700000000000002, 1.7878011067708335" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="8f1bcb1d-9ff0-4f24-91e1-cda03afcb8f7" absoluteBounds="24.75, 8.75, 2, 2.1554996744791666">
+      <DataClassMoniker Name="/SimiWebLinqDataContext/Messaggio" />
+      <nestedChildShapes>
+        <elementListCompartment Id="feef7583-b18a-48c1-b70a-58d848853e3f" absoluteBounds="24.765, 9.21, 1.9700000000000002, 1.5954996744791665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="a99b904d-7188-4a0f-9ebb-e5f967e6964e" absoluteBounds="24.75, 11.75, 2, 2.3478011067708309">
+      <DataClassMoniker Name="/SimiWebLinqDataContext/ReferenteUlss" />
+      <nestedChildShapes>
+        <elementListCompartment Id="24da2c64-74fd-49e5-b6e2-13f9c9dc4e04" absoluteBounds="24.765, 12.21, 1.9700000000000002, 1.7878011067708335" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="9f7a3eb0-a0be-43f6-9fd9-53922c8e868b" absoluteBounds="24.75, 15.75, 2, 2.5401025390625023">
+      <DataClassMoniker Name="/SimiWebLinqDataContext/Notifica_Esami" />
+      <nestedChildShapes>
+        <elementListCompartment Id="a389a5a7-ae10-4c71-b938-947125f35c0a" absoluteBounds="24.765, 16.21, 1.9700000000000002, 1.9801025390625" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="f917322f-b983-4df2-b313-87970e4670b9" absoluteBounds="12.75, 25.75, 2, 3.6939111328125023">
+      <DataClassMoniker Name="/SimiWebLinqDataContext/BulkUser" />
+      <nestedChildShapes>
+        <elementListCompartment Id="00155a92-f072-4b47-8f79-9077d4bb9da0" absoluteBounds="12.765, 26.21, 1.9700000000000002, 3.1339111328125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="2ba60650-a1a6-4e49-a23a-a77598c3e26e" absoluteBounds="12.25, 1, 2, 4.6554182942708326">
+      <DataClassMoniker Name="/SimiWebLinqDataContext/Comune" />
+      <nestedChildShapes>
+        <elementListCompartment Id="ff6d8962-c9be-456a-bda5-77bc3f2f44a5" absoluteBounds="12.265, 1.46, 1.9700000000000002, 4.095418294270833" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(11.5 : 3.36620198567708); (12.25 : 3.36620198567708)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/SimiWebLinqDataContext/Provincia/Provincia_Comune" />
+      <nodes>
+        <classShapeMoniker Id="23ad19c9-e024-465d-b5f6-bca0f3c27a7a" />
+        <classShapeMoniker Id="2ba60650-a1a6-4e49-a23a-a77598c3e26e" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="ef1a0235-b279-4e63-b8fc-31cbf533d4ee" absoluteBounds="3.5, 18.625, 2, 4.8477197265625023">
+      <DataClassMoniker Name="/SimiWebLinqDataContext/Notifica_Tbc_Fattori" />
+      <nestedChildShapes>
+        <elementListCompartment Id="5bbab73f-3f8b-4df4-99aa-6a86336167d6" absoluteBounds="3.5149999999999997, 19.085, 1.9700000000000002, 4.2877197265625" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="67847b24-2275-4f77-9dac-aa48f2bf610a" absoluteBounds="3.5, 3.625, 2, 14.270489908854167">
+      <DataClassMoniker Name="/SimiWebLinqDataContext/Notifica_Tbc" />
+      <nestedChildShapes>
+        <elementListCompartment Id="815a9e47-0e4a-4ec7-b590-a129c90153f2" absoluteBounds="3.5149999999999997, 4.085, 1.9700000000000002, 13.710489908854166" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="68e3cb3d-09dd-4935-a680-bb0b09c45513" absoluteBounds="0.75, 29.375, 2, 3.5016097005208309">
+      <DataClassMoniker Name="/SimiWebLinqDataContext/Notifica" />
+      <nestedChildShapes>
+        <elementListCompartment Id="1c8cea25-ccf2-439c-b5f4-b44502464ce6" absoluteBounds="0.76500000000000012, 29.835, 1.9700000000000002, 2.941609700520833" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(1.75 : 29.375); (1.75 : 21.0488598632813); (2.19791916666667 : 21.0488598632813 : JumpStart); (2.36458583333333 : 21.0488598632813 : JumpEnd); (3.5 : 21.0488598632813)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/SimiWebLinqDataContext/Notifica/Notifica_Notifica_Tbc_Fattori" />
+      <nodes>
+        <classShapeMoniker Id="68e3cb3d-09dd-4935-a680-bb0b09c45513" />
+        <classShapeMoniker Id="ef1a0235-b279-4e63-b8fc-31cbf533d4ee" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(2.2812525 : 29.375); (2.2812525 : 10.7602449544271); (3.5 : 10.7602449544271)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/SimiWebLinqDataContext/Notifica/Notifica_Notifica_Tbc" />
+      <nodes>
+        <classShapeMoniker Id="68e3cb3d-09dd-4935-a680-bb0b09c45513" />
+        <classShapeMoniker Id="67847b24-2275-4f77-9dac-aa48f2bf610a" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="570b94a3-9bb6-4ba5-859c-2b64ed68ec63" absoluteBounds="12.375, 33.375, 2, 6.3861311848958326">
+      <DataClassMoniker Name="/SimiWebLinqDataContext/Notifica_Malaria" />
+      <nestedChildShapes>
+        <elementListCompartment Id="ccf2bb29-b8a5-469b-8eab-a69c0f2e49dc" absoluteBounds="12.39, 33.835, 1.9700000000000002, 5.826131184895833" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(1.75 : 32.8766097005208); (1.75 : 34.8036206054688); (2.19791916666667 : 34.8036206054688 : JumpStart); (2.36458583333333 : 34.8036206054688 : JumpEnd); (12.375 : 34.8036206054688)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/SimiWebLinqDataContext/Notifica/Notifica_Notifica_Malaria" />
+      <nodes>
+        <classShapeMoniker Id="68e3cb3d-09dd-4935-a680-bb0b09c45513" />
+        <classShapeMoniker Id="570b94a3-9bb6-4ba5-859c-2b64ed68ec63" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="c5bf4b22-3113-402c-b8a6-a05f8dfacaa5" absoluteBounds="0.75, 2.375, 2, 1.1939925130208333">
+      <DataClassMoniker Name="/SimiWebLinqDataContext/Utenti_Gruppi_Malattie" />
+      <nestedChildShapes>
+        <elementListCompartment Id="0abe9292-b673-4ab9-9f17-4c9d3b817133" absoluteBounds="0.76499999999999968, 2.835, 1.9700000000000002, 0.63399251302083326" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="fbf8c62f-d871-4295-8884-5d6f34b2a23e" absoluteBounds="4.125, 1.875, 2, 1.5785953776041666">
+      <DataClassMoniker Name="/SimiWebLinqDataContext/Malattie_Definizione_Gruppo" />
+      <nestedChildShapes>
+        <elementListCompartment Id="b4be46e7-e8bf-4c6f-84e5-95d970a1adf1" absoluteBounds="4.14, 2.335, 1.9700000000000002, 1.0185953776041665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="f3032c54-bff1-4c9f-9955-840c5be624d5" absoluteBounds="24.875, 21.125, 2, 6.3861311848958326">
+      <DataClassMoniker Name="/SimiWebLinqDataContext/Focolaio" />
+      <nestedChildShapes>
+        <elementListCompartment Id="aecbcb9c-98a7-4643-9d00-3a8385071ee3" absoluteBounds="24.89, 21.585, 1.9700000000000002, 5.826131184895833" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="7aca4721-8897-4765-8b50-409cac85a7f2" absoluteBounds="12.875, 9.25, 2, 1.3862939453125">
+      <DataClassMoniker Name="/SimiWebLinqDataContext/Malattie_Gruppo" />
+      <nestedChildShapes>
+        <elementListCompartment Id="ef623863-5127-4563-9d1f-bd351f21a926" absoluteBounds="12.89, 9.71, 1.9700000000000002, 0.8262939453125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="0e606ae2-bedf-4076-b192-c18335105eb7" absoluteBounds="16.25, 26, 2, 4.4631168619791666">
+      <DataClassMoniker Name="/SimiWebLinqDataContext/Malattia" />
+      <nestedChildShapes>
+        <elementListCompartment Id="b017dec0-9a30-4f76-83f2-c680a12c3919" absoluteBounds="16.265, 26.46, 1.9700000000000002, 3.903116861979167" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="6c53bc44-6a49-4739-ab26-46096e85f5dd" absoluteBounds="18.875, 1, 2, 2.7324039713541666">
+      <DataClassMoniker Name="/SimiWebLinqDataContext/Audit" />
+      <nestedChildShapes>
+        <elementListCompartment Id="87455aa1-4566-423e-a259-56c79850dcfc" absoluteBounds="18.89, 1.46, 1.9700000000000002, 2.1724039713541665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="e5c2df1c-4459-4b96-97bc-b7b99855fd99" absoluteBounds="5.25, 26.25, 2, 7.7322412109375005">
+      <DataClassMoniker Name="/SimiWebLinqDataContext/Anagrafica" />
+      <nestedChildShapes>
+        <elementListCompartment Id="625bc655-3949-49dd-97d0-f8dd5cdc4052" absoluteBounds="5.265, 26.71, 1.9700000000000002, 7.1722412109375" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(2.75 : 31.1258048502604); (5.25 : 31.1258048502604)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/SimiWebLinqDataContext/Notifica/Notifica_Anagrafica" />
+      <nodes>
+        <classShapeMoniker Id="68e3cb3d-09dd-4935-a680-bb0b09c45513" />
+        <classShapeMoniker Id="e5c2df1c-4459-4b96-97bc-b7b99855fd99" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="526b4ff0-ee6a-460f-9aa0-3028e70008ed" absoluteBounds="2.875, 35.75, 2, 13.116681315104165">
+      <DataClassMoniker Name="/SimiWebLinqDataContext/Clinica" />
+      <nestedChildShapes>
+        <elementListCompartment Id="7ed1b01d-aa2e-4bbd-b45c-b9aff975013f" absoluteBounds="2.8899999999999997, 36.21, 1.9700000000000002, 12.556681315104166" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="e6929b0f-b915-441f-9d6b-76d5ab3f83ab" absoluteBounds="5.625, 35.75, 2, 20.231834309895834">
+      <DataClassMoniker Name="/SimiWebLinqDataContext/Notifica_MIB" />
+      <nestedChildShapes>
+        <elementListCompartment Id="b1355a97-5bc5-4514-92f0-d2cf9cf77377" absoluteBounds="5.64, 36.21, 1.9700000000000002, 19.671834309895832" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(1.2187475 : 32.8766097005208); (1.2187475 : 53.2680078125); (5.625 : 53.2680078125)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/SimiWebLinqDataContext/Notifica/Notifica_Notifica_MIB" />
+      <nodes>
+        <classShapeMoniker Id="68e3cb3d-09dd-4935-a680-bb0b09c45513" />
+        <classShapeMoniker Id="e6929b0f-b915-441f-9d6b-76d5ab3f83ab" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(2.2812525 : 32.8766097005208); (2.2812525 : 42.3083406575521); (2.875 : 42.3083406575521)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/SimiWebLinqDataContext/Notifica/Notifica_Clinica" />
+      <nodes>
+        <classShapeMoniker Id="68e3cb3d-09dd-4935-a680-bb0b09c45513" />
+        <classShapeMoniker Id="526b4ff0-ee6a-460f-9aa0-3028e70008ed" />
+      </nodes>
+    </associationConnector>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>

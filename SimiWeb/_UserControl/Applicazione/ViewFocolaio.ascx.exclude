@@ -1,0 +1,88 @@
+﻿<%@ Control Language="VB" AutoEventWireup="false" CodeFile="ViewFocolaio.ascx.vb" Inherits="_UserControl_Applicazione_ViewFocolaio" %>
+          <label  class="sezione">Lista Notifiche</label>
+            <hr />
+                <br /> 
+                
+       <asp:ListView ID="lstFocolaio" runat="server" DataKeyNames="id">
+                <EmptyDataTemplate>
+                    <table id="Table1" runat="server" style="">
+                        <tr>
+                            <td>
+                               Nessun focolaio inserito</td>
+                        </tr>
+                    </table>
+                </EmptyDataTemplate>       
+                <ItemTemplate>
+                    <tr style="">
+                        <td>
+                            <asp:Label ID="idLabel" runat="server" Text='<%# Eval("id") %>' Visible="false" />
+                            <asp:Label ID="MalattiaLabel" runat="server" Text='<%# Eval("Malattia") %>' />
+                        </td>
+                        <td>                            
+                            <asp:LinkButton ID="lnkComunit" runat="server" CommandName="sel" Text='<%# Eval("comunita")%> '  ></asp:LinkButton>                
+                        </td>
+                        <td>
+                            <asp:Label ID="Comune_segnalazioneLabel" runat="server" 
+                                Text='<%# Eval("Comune_segnalazione") %>' />
+                        </td>
+                        <td>
+                            <asp:Label ID="DataSegnalazioneLabel" runat="server" 
+                                Text='<%#DataBinder.Eval(Container.DataItem, "DataSegnalazione", "{0:dd/MM/yyyy}")%>' />
+                        </td>
+                        <td>
+                            <asp:Label ID="DataNotificaLabel" runat="server" 
+                                Text='<%#DataBinder.Eval(Container.DataItem, "DataNotifica", "{0:dd/MM/yyyy}")%>' />
+                        </td>
+                        <td>
+                            <asp:Label ID="StatoLabel" runat="server" Text='<%# Eval("Stato") %>' />
+                        </td>
+                    </tr>
+                </ItemTemplate>
+                <LayoutTemplate>
+                                <table ID="itemPlaceholderContainer" runat="server" border="0"  class="yui-grid" >
+                                    <tr id="Tr2" runat="server" style="">
+                                        <th id="Th1" runat="server">
+                                            Malattia</th>
+                                        <th id="Th2" runat="server">
+                                            Comunita</th>
+                                        <th id="Th3" runat="server">
+                                            Comune segnalazione</th>
+                                        <th id="Th4" runat="server">
+                                            Data segnalazione</th>
+                                        <th id="Th5" runat="server">
+                                            Data notifica</th>
+                                        <th id="Th6" runat="server">
+                                            Stato</th>
+                                    </tr>
+                                    <tr ID="itemPlaceholder" runat="server">
+                                    </tr>
+                                </table>
+                </LayoutTemplate>
+         </asp:ListView>         
+        <p style="text-align:center">
+        <asp:DataPager ID="pager" runat="server" PagedControlID="lstFocolaio" PageSize="25">
+            <Fields>
+                <asp:NextPreviousPagerField 
+                        ButtonType="image" 
+                        ShowFirstPageButton="True" 
+                        ShowNextPageButton="False" 
+                        ShowPreviousPageButton="True" 
+                        FirstPageImageUrl="~/_Styles/All/images/resultset_first.png"
+                        LastPageImageUrl="~/_Styles/All/images/resultset_last.png"
+                        NextPageImageUrl="~/_Styles/All/images/resultset_next.png"
+                        PreviousPageImageUrl="~/_Styles/All/images/resultset_previous.png" />
+
+                <asp:NumericPagerField />
+                <asp:NextPreviousPagerField                        
+                        ButtonType="image" 
+                        ShowLastPageButton="True" 
+                        ShowNextPageButton="True" 
+                        ShowPreviousPageButton="False" 
+                        FirstPageImageUrl="~/_Styles/All/images/resultset_first.png"
+                        LastPageImageUrl="~/_Styles/All/images/resultset_last.png"
+                        NextPageImageUrl="~/_Styles/All/images/resultset_next.png"
+                        PreviousPageImageUrl="~/_Styles/All/images/resultset_previous.png" />
+            </Fields>
+        </asp:DataPager>
+        </p>
+             

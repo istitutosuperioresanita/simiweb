@@ -1,0 +1,55 @@
+﻿<%@ Master Language="VB" CodeFile="TemplateReport.master.vb" Inherits="_MasterPage_TemplateReport" %>
+<%@ Register src="../_UserControl/Navigazione/UcBarra.ascx" tagname="UcBarra" tagprefix="uc1" %>
+
+<%@ Register src="../_UserControl/Navigazione/UcLeftMenu.ascx" tagname="UcLeftMenu" tagprefix="uc2" %>
+
+<%@ Register src="../_UserControl/Navigazione/debug.ascx" tagname="debug" tagprefix="uc3" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1" runat="server">
+    <title></title>
+   <link rel="Stylesheet"  type="text/css"  href="../_Styles/Iss/TemplateReport.css" />  
+   <link rel="Stylesheet"  type="text/css"  href="../_Styles/Field.css" /> 
+   <link rel="Stylesheet"  type="text/css"  href="../_Styles/Liste/Viste.css" />  
+
+    <asp:ContentPlaceHolder id="head" runat="server">
+
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div class="body"> 
+       <uc3:debug ID="debug1" runat="server" />       
+       <div class="testata"><asp:Image ID="Image1" Width="1024" Height="154" runat="server" ImageUrl="~/_Styles/Iss/images/simi.png"  ImageAlign="Middle"/></div>
+              <uc1:UcBarra ID="UcBarra1" runat="server" />
+        </div >
+<%--        <div class="top-center">
+        </div>--%>
+
+        <div class="center" >
+        
+                <div class="center1" >
+                     <asp:ContentPlaceHolder id="Contenuto" runat="server">
+                     </asp:ContentPlaceHolder>
+                </div>
+                <div class="center2">
+                    <asp:ContentPlaceHolder id="LeftMenu" runat="server">
+                    </asp:ContentPlaceHolder>
+                    <uc2:UcLeftMenu ID="UcLeftMenu1" runat="server" />
+                </div>
+            </div >
+<div class="dow-center">
+</div>
+
+        <asp:ContentPlaceHolder id="Footer" runat="server">        
+        </asp:ContentPlaceHolder>
+
+       <div class="piede">
+                      
+       </div>
+
+    </form>
+</body>
+</html>

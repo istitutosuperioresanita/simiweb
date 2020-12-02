@@ -1,0 +1,187 @@
+﻿/* HEADINGS   
+----------------------------------------------------------*/
+
+h1, h2, h3, h4, h5, h6
+{
+    font-size: 1.5em;
+    color: #666666;
+    font-variant: small-caps;
+    text-transform: none;
+    font-weight: 200;
+    margin-bottom: 0px;
+}
+
+h1
+{
+    font-size: 1.6em;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+
+h2
+{
+    font-size: 1.5em;
+    font-weight: 600;
+}
+
+h3
+{
+    font-size: 1.2em;
+}
+
+h4
+{
+    font-size: 1.1em;
+}
+
+h5, h6
+{
+    font-size: 1em;
+}
+
+
+/* FORM ELEMENTS   
+----------------------------------------------------------*/
+
+
+.paragrafo
+{  
+ padding-left:4px;
+ padding-right:4px;
+ font-size: 11px;
+ height: 14px;
+}
+
+.label
+{
+ display:inline-block;
+ width:100px;
+ padding-left:4px;
+ font-size: 11px;
+ height: 14px;
+}
+
+
+
+.labelBold
+{
+ display:inline-block;
+ width:100px;
+ padding-left:4px;
+ font-size: 11px;
+ height: 14px;
+ font-weight:bold;
+
+}
+
+.labelImage
+{
+ width:80px;
+ margin-left:10px;
+ font-size: 11px;
+ height: 14px;
+ font-weight:bold;
+}
+
+.labelView
+{
+ display:inline-block;
+ font-size: 11px;
+ height: 14px;
+ padding-left:50px;
+}
+
+.sezione
+{
+    font-size: 1.1em;
+    font-weight: 600;
+    padding: 2px 4px 8px 4px;    
+}
+.Subsezione
+{
+    font-size: 0.9em;
+    font-weight: 600;
+    padding: 2px 4px 8px 4px;
+}
+
+.checkBox
+{
+    color: Black;
+    border-style: none;
+    font-family: Verdana;
+    font-size: 11px;
+    padding-top: 4px; 
+}
+
+.dropdown
+{
+    border: 1px solid #D0C39E;
+    font-family: Verdana;
+    font-size: 11px;
+    width:auto;
+}
+
+.textBox
+{
+    border: 1px solid;
+    border-color: #D0C39E;
+    background-color: #FFFFFF;
+    height : 18px;
+    font-family: Verdana;
+    font-size: 11px;
+    vertical-align: middle;
+    margin-bottom: 1px;
+    margin-top:1px;
+}
+.button
+{}
+/*
+.button
+{
+    border: 1px solid #D0C39E;
+    font-family: Verdana;
+    font-size : 10px;
+    font-weight : bold;
+    background-color: #D6D0C5;
+    height: 18px; 
+}
+*/
+/* VARIE   
+----------------------------------------------------------*/
+
+.alert
+{
+    color: #D90303;
+    font-weight: bold;
+    font-size: 11px;
+}
+.funzione
+{
+    color:Black;
+    text-decoration: none;
+    margin-left: 1px; 
+}
+
+ .highlight { background-color: yellow }
+ 
+ 
+ 
+ /*------------------------ TOOL TIP----------------*/
+ 
+ .lnk{ position:relative; 
+    z-index:24;
+    text-decoration: none}
+
+.lnk:hover{ z-index: 25; } 
+
+.lnk span{display: none}
+
+.lnk:hover span{ /*lo span verrà mostrato solo sullo stato :hover */
+    display: block; position:absolute;
+    top: 2em; left: 2em; width: 600px;
+    border: 1px solid #0cf; background-color: #F5F5F5; color:#000000;
+    text-align:left;}
+
+
+    
+    

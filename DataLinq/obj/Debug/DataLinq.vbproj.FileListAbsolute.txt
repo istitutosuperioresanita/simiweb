@@ -1,0 +1,11 @@
+C:\ProgettiVisualStudio\Simiweb_2_0\slnSimiWeb\DataLinq\obj\Debug\Simiweb.DataLinq.Resources.resources
+C:\ProgettiVisualStudio\Simiweb_2_0\slnSimiWeb\DataLinq\obj\Debug\DataLinq.vbproj.GenerateResource.Cache
+C:\Users\gianluca\Documents\simiweb_gith_hub\slnSimiWeb\DataLinq\bin\Debug\DataLinq.dll.config
+C:\Users\gianluca\Documents\simiweb_gith_hub\slnSimiWeb\DataLinq\bin\Debug\DataLinq.dll
+C:\Users\gianluca\Documents\simiweb_gith_hub\slnSimiWeb\DataLinq\bin\Debug\DataLinq.pdb
+C:\Users\gianluca\Documents\simiweb_gith_hub\slnSimiWeb\DataLinq\bin\Debug\DataLinq.xml
+C:\Users\gianluca\Documents\simiweb_gith_hub\slnSimiWeb\DataLinq\obj\Debug\Simiweb.DataLinq.Resources.resources
+C:\Users\gianluca\Documents\simiweb_gith_hub\slnSimiWeb\DataLinq\obj\Debug\DataLinq.vbproj.GenerateResource.Cache
+C:\Users\gianluca\Documents\simiweb_gith_hub\slnSimiWeb\DataLinq\obj\Debug\DataLinq.dll
+C:\Users\gianluca\Documents\simiweb_gith_hub\slnSimiWeb\DataLinq\obj\Debug\DataLinq.xml
+C:\Users\gianluca\Documents\simiweb_gith_hub\slnSimiWeb\DataLinq\obj\Debug\DataLinq.pdb
