@@ -109,6 +109,6 @@ platforms:
 releaseDate: '2019-01-08'
 softwareType: configurationFiles
 softwareVersion: '1.0'
-url: 'https://github.com/istitutosuperioresanita/simiweb_2'
+url: 'https://github.com/istitutosuperioresanita/simiweb'
 usedBy:
   - ISTITUTO SUPERIORE SANITA
